@@ -2,6 +2,7 @@ package Fundamentos;
 
 public class HolaMundo {
     public static void main(String args[]) {
-         System.out.println("Hola Mundo");
+         int miVarEntera = 10;
+         System.out.println(miVarEntera);
     }
 }
