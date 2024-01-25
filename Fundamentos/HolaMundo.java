@@ -7,32 +7,16 @@ public class HolaMundo {
      * @param args
      */
     public static void main(String args[]) {
-        //Definimos la variable
-        int miVarEntera = 10;
-        System.out.println(miVarEntera);
+        var usuario = "Angel";
+        var titulo = "Ingeniero";
 
-         //Modificamos el valor de la variable;
-        miVarEntera = 7;
-        System.out.println(miVarEntera);
+        var union = titulo + " " + usuario;
+        System.out.println(union);
 
-        String miVarCadena = "Saludos";
-        System.out.println(miVarCadena);
-         
-        miVarCadena = "Adios";
-        System.out.println(miVarCadena);
-
-         //var - Inferencia de tipos en Java
-        var miVarEntera2 = 26;
-        System.out.println(miVarEntera2);
-
-        var miVarCadena2 = "Nueva Cadena";
-        System.out.println(miVarCadena2);
-
-        // Valores permitidos en el nombre de variables 
-        var miVariable = 1;
-        var _miVariable = 2;
-        var $miVariable = 3;
-        //var áVariable = 4; no se recomienda utilizar
-        
+        var i = 3;
+        var j = 4;
+        System.out.println(i + j); //se realiza la suma de numeros
+        System.out.println(i + j + " " + usuario); // evaluacion de izquierda a derecha realiza suma
+        System.out.println(usuario + (i + j)); // uso de parentesis modifican la prioridad en la evaluacion
     }
 }
