@@ -11,7 +11,7 @@ public class HolaMundo {
         Scanner consola = new Scanner(System.in);
         var usuario = consola.nextLine(); // lee una linea completa de la consola
         System.out.println(usuario);
-        System.out.println("Escribe el titulo");
+        System.out.println("Escribe el");
         var titulo = consola.nextLine();
         System.out.println("Resultado: " + titulo + " " + usuario);
     }
