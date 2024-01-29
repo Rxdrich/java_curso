@@ -1,7 +1,5 @@
 package Fundamentos;
 
-import javax.print.attribute.SupportedValuesAttribute;
-
 import java.util.Scanner;
 
 public class HolaMundo {
